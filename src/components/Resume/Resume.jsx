@@ -149,6 +149,20 @@ function Resume() {
                 " Experienced in completing tasks undertime certain time constraints from clients",
               ]}
             />
+            <ResumeContent
+              title="Associate Software Engineer at UltimaGenomics"
+              date="June 2021 - June 2022"
+              content={[
+                "Helped create, update, and fix bugs on an application designed for bio scientists to use on UltimaGenomics Tools.",
+              ]}
+            />
+            <ResumeContent
+              title="Software Engineer at UltimaGenomics"
+              date="June 2022 - Up to Date"
+              content={[
+                "Helped create, update, and fix bugs on an application designed for bio scientists to use on UltimaGenomics Tools.",
+              ]}
+            />
             <h3 className="resume-title">Extracurricular Activities</h3>
             <ResumeContent
               title="Web Developer [PalmBeach Hack-a-thon 2020]"

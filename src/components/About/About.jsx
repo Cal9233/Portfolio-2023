@@ -4,6 +4,7 @@ import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Github from "./Github";
 import Techstack from "./Techstack";
+import Toolstack from "./Toolstack";
 import Aboutcard from "./AboutCard";
 import image from "../../Assets/image.png";
 
@@ -36,32 +37,13 @@ function About() {
         <h1 className="project-heading">
           Professional <strong className="red">Skillset </strong>
         </h1>
-        <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-          <Techstack iconName="devicon-flutter-plain" />
-          <Techstack iconName="devicon-html5-plain" />
-          <Techstack iconName="devicon-css3-plain" />
-          <Techstack iconName="devicon-javascript-plain" />
-          <Techstack iconName="devicon-nodejs-plain-wordmark" />
-          <Techstack iconName="devicon-express-original-wordmark" />
-          <Techstack iconName="devicon-react-original-wordmark" />
-          <Techstack iconName="devicon-typescript-plain" />
-          <Techstack iconName="devicon-wordpress-plain" />
-        </Row>
+        
+        <Techstack />
+
         <h1 className="project-heading">
-          <strong className="red">Tools</strong> I use
+          <strong className="purple">Tools</strong> I use
         </h1>
-        <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-          <Techstack iconName="devicon-firebase-plain" />
-          <Techstack iconName="devicon-github-original" />
-          <Techstack iconName="cib-visual-studio-code" />
-          <Techstack iconName="devicon-npm-original-wordmark" />
-          <Techstack iconName="cib-postman" />
-          <Techstack iconName="devicon-bootstrap-plain-wordmark" />
-          <Techstack iconName="devicon-yarn-plain" />
-          <Techstack iconName="devicon-mongodb-plain-wordmark" />
-          <Techstack iconName="cib-heroku" />
-          <Techstack iconName="devicon-git-plain-wordmark" />
-        </Row>
+        <Toolstack />
         <Github />
       </Container>
     </Container>

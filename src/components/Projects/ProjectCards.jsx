@@ -1,8 +1,8 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import "../../style.css";
-import "bootstrap/dist/css/bootstrap.min.css";
+import { CgWebsite } from "react-icons/cg";
+import { BsGithub } from "react-icons/bs";
 
 function ProjectCards(props) {
   return (
