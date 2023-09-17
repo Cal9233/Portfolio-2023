@@ -1,9 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/Me.jpg";
+import myImg from "../../Assets/me1.png";
 import Contact from "../Contact/Contact";
-import "../../style.css";
-import "bootstrap/dist/css/bootstrap.min.css";
+import {
+  AiFillGithub,
+  AiFillInstagram,
+} from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
 import Tilt from "react-parallax-tilt";
 
 function Home2() {
@@ -13,7 +16,7 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-             I am a junior-level <span className="red"> Fullstack Engineer </span> looking to excel and become an asset to a 
+             I am a <span className="red"> Software Engineer </span> looking to excel and become an asset to a 
             company that is fast-paced giving opportunity for growth.
             </h1>
             <p className="home-about-body">
@@ -40,7 +43,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="img-fluid" alt="avatar" style={{borderRadius: '50%'}} />
             </Tilt>
           </Col>
         </Row>
@@ -59,7 +62,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <i className="fab fa-github"></i>
+                  <AiFillGithub />
                 </a>
               </li>
               <li className="social-icons">
@@ -69,7 +72,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <i className="fab fa-linkedin-in"></i>
+                  <FaLinkedinIn />
                 </a>
               </li>
               <li className="social-icons">
@@ -79,7 +82,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <i className="fab fa-instagram"></i>
+                  <AiFillInstagram />
                 </a>
               </li>
             </ul>
